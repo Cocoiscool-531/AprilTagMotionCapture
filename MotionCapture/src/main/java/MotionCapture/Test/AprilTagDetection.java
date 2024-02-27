@@ -26,5 +26,7 @@ public class AprilTagDetection {
             .build();
 
             VisionPortal.Builder b = new VisionPortal.Builder();
+
+            b.setCamera()
     }
 }

@@ -52,13 +52,11 @@ dependencies {
     implementation 'org.firstinspires.ftc:Vision:9.1.0'
     implementation 'org.firstinspires.ftc:gameAssets-CenterStage:1.0.0'
     implementation 'org.tensorflow:tensorflow-lite-task-vision:0.4.3'
+    implementation 'com.github.sarxos:webcam-capture:0.3.12' 
     runtimeOnly 'org.tensorflow:tensorflow-lite:2.12.0'
     implementation 'androidx.appcompat:appcompat:1.2.0'
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
-    // Remove/comment out the one you aren't going to need
-    implementation(project(":opencv_VERSION"))
-    implementation(project(":opencv-contrib_VERSION"))
 }

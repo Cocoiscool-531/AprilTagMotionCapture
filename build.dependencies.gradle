@@ -1,9 +1,0 @@
-repositories {
-    mavenCentral()
-    google()
-}
-
-dependencies {
-    implementation `com.quickbirdstudios:opencv:4.5.3.0`
-    implementation 'org.firstinspires.ftc:Vision:9.1.0'
-}
